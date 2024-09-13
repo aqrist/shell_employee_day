@@ -31,7 +31,7 @@ class _AudioPageState extends State<AudioPage> with TickerProviderStateMixin {
         _buttonPosition = 32;
       });
     } else {
-      await _audioPlayer.play(AssetSource('focus_bgm.mp3'));
+      await _audioPlayer.play(AssetSource('focus_sm.mp3'));
       setState(() {
         _buttonHeight = 200;
         _buttonPosition = 100;
